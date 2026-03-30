@@ -3,11 +3,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
-
 }
+
 
 header {
     padding: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.nav__brand {
+    color: yellow;
 }
 
 .header__wrapper {
@@ -30,6 +36,7 @@ header {
 .nav__link a {
     padding-left: 25px;
     text-decoration: none;
+    color: yellow;
 }
 
 .container {
@@ -56,6 +63,9 @@ header {
     color: white;
     
 } 
+
+
+
   .wrapper.is-open .navMenu { 
     display: block; 
     padding: 20px;
@@ -76,10 +86,41 @@ header {
 }
 
 .nav__toggle::before {
-  content: "+";
+  content: "☰"; 
   font-size: 24px;
 }
 
 .nav__toggle[aria-expanded="true"]::before {
-  content: "x";
+  content: "✕"; 
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+.hero__description {
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 70px 0;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
 }
