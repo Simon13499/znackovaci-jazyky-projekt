@@ -10,7 +10,7 @@ header {
     padding: 25px;
 }
 
-.wrapper {
+.header__wrapper {
     display: flex;
     justify-content: space-between;
 
