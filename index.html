@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styly.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <a class="nav__brand" href="">brand</a>
+
+                    <button class="nav__toggle"
+                            aria-expanded="false"
+                            aria-controls="navMenu"
+                            aria-label="Otevřít menu">
+                        
+                    </button>
+
+                <nav id="navMenu" class="navMenu">
+                     <ul class="nav__list">
+                        <li class="nav__link"><a href="">test</a></li>
+                        <li class="nav__link"><a href="">test</a></li>
+                        <li class="nav__link"><a href="">test</a></li>
+                        <li class="nav__link"><a href="">test</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <script>
+
+        
+        const hamburger = document.querySelector(".nav__toggle")
+        hamburger.addEventListener("click", () => {
+        const wrapper = document.querySelector(".wrapper")
+        
+        // přidá/odebere třídu is-open když tam není vrátí true nebo false
+        const isOpen = wrapper.classList.toggle("is-open");
+        hamburger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        })
+    </script>
+</body>
+</html>

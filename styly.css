@@ -1,0 +1,85 @@
+* , body, html{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    padding: 25px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__list {
+    display: flex;
+    padding-left: 25px;
+}
+
+.nav__link {
+    list-style: none;
+    color: black;
+    
+}
+
+.nav__link a {
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+@media (min-width: 768px) {
+  .nav__toggle { display: none; }
+  
+  .navMenu { 
+    display: block; 
+    }
+}
+
+@media (max-width: 767px) {
+  .navMenu { 
+    display: none; 
+    
+}
+
+.nav__link a{
+    list-style: none;
+    color: white;
+    
+} 
+  .wrapper.is-open .navMenu { 
+    display: block; 
+    padding: 20px;
+    position: absolute;
+    margin: 50px 0 0 0;
+    background-color: brown;
+    width: 100%;
+
+}
+
+  .nav__list {
+    flex-direction: column;
+    padding-left: 0;
+    gap: 12px;
+  }
+
+  .nav__link a { padding-left: 0; }
+}
+
+.nav__toggle::before {
+  content: "+";
+  font-size: 24px;
+}
+
+.nav__toggle[aria-expanded="true"]::before {
+  content: "x";
+}
