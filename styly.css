@@ -1,100 +1,106 @@
-* , body, html{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
     margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-header {
-    padding: 25px;
-    background-color: blueviolet;
-    color: white;
+body {
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
 }
 
-.nav__brand {
-    color: yellow;
+img {
+    max-width: 100%;
+    display: block;
 }
 
-.header__wrapper {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.nav__list {
-    display: flex;
-    padding-left: 25px;
-}
-
-.nav__link {
-    list-style: none;
-    color: black;
-    
-}
-
-.nav__link a {
-    padding-left: 25px;
+a {
     text-decoration: none;
-    color: yellow;
 }
 
 .container {
     max-width: 1280px;
-    margin: 0px auto;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-@media (min-width: 768px) {
-  .nav__toggle { display: none; }
-  
-  .navMenu { 
-    display: block; 
-    }
-}
 
-@media (max-width: 767px) {
-  .navMenu { 
-    display: none; 
-    
-}
-
-.nav__link a{
-    list-style: none;
+.header {
+    padding: 20px 0;
+    background-color: blueviolet;
     color: white;
-    
-} 
-
-
-
-  .wrapper.is-open .navMenu { 
-    display: block; 
-    padding: 20px;
-    position: absolute;
-    margin: 50px 0 0 0;
-    background-color: brown;
-    width: 100%;
-
+    position: relative;
 }
 
-  .nav__list {
-    flex-direction: column;
-    padding-left: 0;
-    gap: 12px;
-  }
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
 
-  .nav__link a { padding-left: 0; }
+.nav__brand {
+    color: yellow;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+
+.nav {
+    display: block;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__link {
+    color: yellow;
+    transition: opacity 0.3s ease;
+}
+
+.nav__link:hover {
+    opacity: 0.8;
+}
+
+
+.nav__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: yellow;
+    cursor: pointer;
+    padding: 0;
 }
 
 .nav__toggle::before {
-  content: "☰"; 
-  font-size: 24px;
+    content: "☰";
+    font-size: 24px;
 }
 
 .nav__toggle[aria-expanded="true"]::before {
-  content: "✕"; 
+    content: "✕";
 }
 
+/* BUTTONS */
 .btn {
+    display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
     border: none;
@@ -103,24 +109,118 @@ header {
     transition: 0.3s;
 }
 
-.btn.primary {
+.btn--primary {
     background-color: blueviolet;
     color: yellow;
 }
 
-.hero__description {
-    margin-bottom: 30px;
+.btn--secondary {
+    background-color: #222;
+    color: white;
 }
 
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* SECTIONS */
 section {
     margin: 70px 0;
 }
 
+.hero__title,
+.about__title,
+.info__title,
+.venues__title,
+.audience__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
-footer {
+.hero__description,
+.about__text {
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.info__list,
+.audience__list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.venues__wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+.venues__item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.venues__item-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.venues__item-text {
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
     background-color: #222;
     color: white;
     text-align: center;
     padding: 25px 0;
     margin-top: 40px;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .nav__toggle {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: blueviolet;
+        padding: 20px;
+        z-index: 10;
+    }
+
+    .nav.is-open {
+        display: block;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .nav__link {
+        color: white;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    .nav {
+        display: block !important;
+        position: static;
+        width: auto;
+        background: none;
+        padding: 0;
+    }
 }
