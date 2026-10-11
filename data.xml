@@ -1,0 +1,811 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<festival id="aurora-nexus-2027">
+  <info>
+    <name>Aurora Nexus Festival</name>
+    <edition>2</edition>
+    <city>Ostrava</city>
+    <country>Czech Republic</country>
+    <startDate>2027-06-11</startDate>
+    <endDate>2027-06-13</endDate>
+    <description>Three-day electronic music and digital art festival connecting music, audiovisual performances and creative technologies in Ostrava.</description>
+  </info>
+  <venues>
+    <venue id="v1">
+      <name>Main Stage</name>
+      <capacity>3000</capacity>
+      <address>Dolní Vítkovice</address>
+    </venue>
+    <venue id="v2">
+      <name>Digital Lab</name>
+      <capacity>600</capacity>
+      <address>Gong Hall</address>
+    </venue>
+  </venues>
+  <performers>
+    <performer id="p1">
+      <name>Neon Pulse</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p2">
+      <name>Solar Drift</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p3">
+      <name>Echo Circuit</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p4">
+      <name>Luna Phase</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p5">
+      <name>Voltage Bloom</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p6">
+      <name>Static Horizon</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p7">
+      <name>Violet Signal</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p8">
+      <name>Nova Rhythm</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p9">
+      <name>Afterglow Unit</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p10">
+      <name>Pulse Theory</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p11">
+      <name>Night Current</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p12">
+      <name>Aurora Drive</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p13">
+      <name>Cobalt Motion</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p14">
+      <name>Zero Gravity</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p15">
+      <name>Bass Meridian</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p16">
+      <name>Liquid Spectrum</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p17">
+      <name>Northern Loop</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p18">
+      <name>Glass Frequency</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p19">
+      <name>Velvet Machine</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p20">
+      <name>Digital Mirage</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p21">
+      <name>Prism Shift</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p22">
+      <name>Electric Tide</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p23">
+      <name>Midnight Syntax</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p24">
+      <name>Pixel Orbit</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p25">
+      <name>Analog Hearts</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p26">
+      <name>Skyline Frequency</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p27">
+      <name>Radiant Form</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p28">
+      <name>Ghost Transit</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p29">
+      <name>Dusk Protocol</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p30">
+      <name>Cosmic Pattern</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p31">
+      <name>Blue Parallax</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p32">
+      <name>Hyper Bloom</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p33">
+      <name>Monochrome Wave</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p34">
+      <name>Sonic Atlas</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p35">
+      <name>Crystal Echo</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p36">
+      <name>Parallel Sound</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p37">
+      <name>Pulse District</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p38">
+      <name>Orbit Theory</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p39">
+      <name>Hollow Sunrise</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p40">
+      <name>Retro Vector</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p41">
+      <name>Signal Forest</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p42">
+      <name>Midnight Frame</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p43">
+      <name>Prismatic Void</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p44">
+      <name>Neon Harbor</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p45">
+      <name>Gravity Echo</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p46">
+      <name>Static Bloom</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p47">
+      <name>Dream Module</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p48">
+      <name>Horizon Code</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p49">
+      <name>Solar Memory</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p50">
+      <name>Lowlight Theory</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p51">
+      <name>Chromatic Pulse</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p52">
+      <name>Satellite Rain</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p53">
+      <name>Dawn Sequence</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p54">
+      <name>Silver Current</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p55">
+      <name>Digital Ritual</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p56">
+      <name>Analog Nova</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+    <performer id="p57">
+      <name>Velvet Orbit</name>
+      <genre>electronic</genre>
+      <bio>Propojuje melodické syntezátory, rytmické sekvence a výraznou audiovizuální show.</bio>
+    </performer>
+    <performer id="p58">
+      <name>Subtle Motion</name>
+      <genre>techno</genre>
+      <bio>Staví na energických rytmech, hypnotických motivech a industriální atmosféře.</bio>
+    </performer>
+    <performer id="p59">
+      <name>Electric Bloom</name>
+      <genre>house</genre>
+      <bio>Kombinuje taneční groove, teplé syntezátory a pulzující basové linky.</bio>
+    </performer>
+    <performer id="p60">
+      <name>Final Frequency</name>
+      <genre>ambient</genre>
+      <bio>Vytváří prostorové zvukové krajiny, jemné textury a experimentální elektroniku.</bio>
+    </performer>
+  </performers>
+  <events>
+    <!-- Day 1 -->
+    <event id="e1">
+      <title>Neon Pulse — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p1</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e2">
+      <title>Solar Drift — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p2</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e3">
+      <title>Echo Circuit — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p3</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e4">
+      <title>Luna Phase — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p4</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e5">
+      <title>Voltage Bloom — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p5</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e6">
+      <title>Static Horizon — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p6</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e7">
+      <title>Violet Signal — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p7</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e8">
+      <title>Nova Rhythm — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p8</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e9">
+      <title>Afterglow Unit — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p9</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e10">
+      <title>Pulse Theory — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p10</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e11">
+      <title>Night Current — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p11</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e12">
+      <title>Aurora Drive — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p12</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e13">
+      <title>Cobalt Motion — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p13</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e14">
+      <title>Zero Gravity — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p14</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e15">
+      <title>Bass Meridian — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p15</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e16">
+      <title>Liquid Spectrum — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p16</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e17">
+      <title>Northern Loop — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p17</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e18">
+      <title>Glass Frequency — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p18</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e19">
+      <title>Velvet Machine — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v1</venueId>
+      <performerId>p19</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+    <event id="e20">
+      <title>Digital Mirage — Live Set</title>
+      <date>2027-06-11</date>
+      <venueId>v2</venueId>
+      <performerId>p20</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+    <!-- Day 2 -->
+    <event id="e21">
+      <title>Prism Shift — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p21</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e22">
+      <title>Electric Tide — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p22</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e23">
+      <title>Midnight Syntax — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p23</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e24">
+      <title>Pixel Orbit — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p24</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e25">
+      <title>Analog Hearts — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p25</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e26">
+      <title>Skyline Frequency — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p26</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e27">
+      <title>Radiant Form — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p27</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e28">
+      <title>Ghost Transit — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p28</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e29">
+      <title>Dusk Protocol — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p29</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e30">
+      <title>Cosmic Pattern — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p30</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e31">
+      <title>Blue Parallax — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p31</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e32">
+      <title>Hyper Bloom — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p32</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e33">
+      <title>Monochrome Wave — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p33</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e34">
+      <title>Sonic Atlas — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p34</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e35">
+      <title>Crystal Echo — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p35</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e36">
+      <title>Parallel Sound — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p36</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e37">
+      <title>Pulse District — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p37</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e38">
+      <title>Orbit Theory — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p38</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e39">
+      <title>Hollow Sunrise — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v1</venueId>
+      <performerId>p39</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+    <event id="e40">
+      <title>Retro Vector — Live Set</title>
+      <date>2027-06-12</date>
+      <venueId>v2</venueId>
+      <performerId>p40</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+    <!-- Day 3 -->
+    <event id="e41">
+      <title>Signal Forest — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p41</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e42">
+      <title>Midnight Frame — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p42</performerId>
+      <startTime>12:00</startTime>
+      <endTime>12:55</endTime>
+    </event>
+    <event id="e43">
+      <title>Prismatic Void — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p43</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e44">
+      <title>Neon Harbor — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p44</performerId>
+      <startTime>13:00</startTime>
+      <endTime>13:55</endTime>
+    </event>
+    <event id="e45">
+      <title>Gravity Echo — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p45</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e46">
+      <title>Static Bloom — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p46</performerId>
+      <startTime>14:00</startTime>
+      <endTime>14:55</endTime>
+    </event>
+    <event id="e47">
+      <title>Dream Module — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p47</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e48">
+      <title>Horizon Code — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p48</performerId>
+      <startTime>15:00</startTime>
+      <endTime>15:55</endTime>
+    </event>
+    <event id="e49">
+      <title>Solar Memory — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p49</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e50">
+      <title>Lowlight Theory — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p50</performerId>
+      <startTime>16:00</startTime>
+      <endTime>16:55</endTime>
+    </event>
+    <event id="e51">
+      <title>Chromatic Pulse — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p51</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e52">
+      <title>Satellite Rain — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p52</performerId>
+      <startTime>17:00</startTime>
+      <endTime>17:55</endTime>
+    </event>
+    <event id="e53">
+      <title>Dawn Sequence — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p53</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e54">
+      <title>Silver Current — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p54</performerId>
+      <startTime>18:00</startTime>
+      <endTime>18:55</endTime>
+    </event>
+    <event id="e55">
+      <title>Digital Ritual — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p55</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e56">
+      <title>Analog Nova — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p56</performerId>
+      <startTime>19:00</startTime>
+      <endTime>19:55</endTime>
+    </event>
+    <event id="e57">
+      <title>Velvet Orbit — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p57</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e58">
+      <title>Subtle Motion — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p58</performerId>
+      <startTime>20:00</startTime>
+      <endTime>20:55</endTime>
+    </event>
+    <event id="e59">
+      <title>Electric Bloom — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v1</venueId>
+      <performerId>p59</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+    <event id="e60">
+      <title>Final Frequency — Live Set</title>
+      <date>2027-06-13</date>
+      <venueId>v2</venueId>
+      <performerId>p60</performerId>
+      <startTime>21:00</startTime>
+      <endTime>21:55</endTime>
+    </event>
+  </events>
+</festival>
